@@ -1,5 +1,8 @@
+rect {
+  opacity: 0;
+}
 circle {
-  color: #5f5f5f;
+  fill: #5f5f5f;
 }
 path {
   stroke: #5f5f5f;
@@ -11,7 +14,7 @@ path {
 .contained .small {
   fill: #573d29;
 }
-.contained #rect, circle {
+.contained #rect, circle:nth-of-type(7) {
   fill: #c0c0c0;
   stroke: none;
   opacity: 1
@@ -24,9 +27,6 @@ path {
 #interactive:hover {
   fill: #bd250d;
 }
-rect {
-  opacity: 0;
-}
-path:nth-of-type(4) {
+path:last-of-type {
   stroke: none;
 }
