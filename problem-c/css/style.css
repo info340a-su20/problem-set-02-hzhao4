@@ -14,18 +14,20 @@ th {
   text-align: left;
   color: #1db954;
   background-color: #d3d3d3;
+  padding: .5em;
+  border-bottom: 1px solid #d3d3d3;
 }
 img {
   width: 100px;
   height: 100px;
 }
 td {
-  padding: 0.5em;
+  padding: .5em;
   border-bottom: 1px solid #d3d3d3;
 }
 tr:nth-child(even) {
   background-color: #eee;
 }
-tr:hover {
+tbody > tr:hover {
   background-color: pink;
 }
