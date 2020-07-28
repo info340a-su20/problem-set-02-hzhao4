@@ -11,13 +11,13 @@ path {
 .small {
   fill: white;
 }
-.contained .small {
-  fill: #573d29;
-}
-.contained #rect, circle:nth-of-type(7) {
+.contained #rect, .contained circle {
   fill: #c0c0c0;
   stroke: none;
   opacity: 1
+}
+.contained .small {
+  fill: #573d29;
 }
 #interactive {
   fill: #c0c0c0;
